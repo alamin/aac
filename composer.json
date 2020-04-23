@@ -1,0 +1,26 @@
+{
+    "name": "administrator/prod",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Md Al Amin Chowdhury",
+            "email": "alamin.chowdhury@gmail.com"
+        }
+    ],
+    "require": {
+        
+		"phpunit/phpunit": "^8.5" 
+	},
+		
+	"autoload": {
+			"psr-4": {
+			"App\\": "src/"
+		}
+	},
+	"autoload-dev": {
+			"psr-4": {
+			"Tests\\": "tests/"
+			}
+	}
+    
+}
